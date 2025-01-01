@@ -460,7 +460,26 @@
     50% { border-color: transparent; }
   }
   
-
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px; /* Giảm kích thước chữ trên điện thoại */
+    }
+  
+    .new-year-message {
+      font-size: 2rem; /* Giảm kích thước chữ thông điệp */
+    }
+  
+    #gift, #surprise {
+      max-width: 250px;
+      max-height: 250px; /* Giảm kích thước hộp quà cho màn hình nhỏ */
+    }
+  
+    #gift img, #surprise img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
   
   
   
